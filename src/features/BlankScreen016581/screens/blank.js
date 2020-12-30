@@ -48,6 +48,7 @@ export default class Blank extends React.Component {
         value={this.state.TextInput_4}
         onChangeText={nextValue => this.setState({ TextInput_4: nextValue })}
       />
+      <Button title="Press me!" onPress={() => alert("Pressed!")} />
     </View>
   )
 }
@@ -56,5 +57,6 @@ const styles = StyleSheet.create({
   View_1: {},
   Image_2: { width: 100 },
   Text_3: {},
-  TextInput_4: {}
+  TextInput_4: {},
+  Button_5: {}
 })
