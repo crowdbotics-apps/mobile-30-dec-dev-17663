@@ -36,8 +36,16 @@ export default class Blank extends React.Component {
         }}
         style={styles.Image_2}
       />
+      <Text>
+        Sample text content jhhgjhg jhgjghjg jhgjhgjgjg jhgjhgjg jhgjhghjg
+        jhgjhgg jhgjhgjhg jhgjhgjg jhgj
+      </Text>
     </View>
   )
 }
 
-const styles = StyleSheet.create({ View_1: {}, Image_2: { width: 100 } })
+const styles = StyleSheet.create({
+  View_1: {},
+  Image_2: { width: 100 },
+  Text_3: {}
+})
