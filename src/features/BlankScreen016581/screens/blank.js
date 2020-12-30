@@ -29,7 +29,11 @@ export default class Blank extends React.Component {
   render = () => (
     <View>
       <Image
-        source={{ uri: "https://via.placeholder.com/150" }}
+        resizeMode="center"
+        source={{
+          uri:
+            "https://crowdbotics-slack-dev.s3.amazonaws.com/media/project_component_resources/2_UMRYjuM.jpg"
+        }}
         style={styles.Image_2}
       />
     </View>
