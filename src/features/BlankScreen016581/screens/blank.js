@@ -36,4 +36,4 @@ export default class Blank extends React.Component {
   )
 }
 
-const styles = StyleSheet.create({ View_1: {}, Image_2: { width: "100%" } })
+const styles = StyleSheet.create({ View_1: {}, Image_2: { width: 100 } })
